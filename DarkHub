@@ -12,3 +12,15 @@ local Tab = Window:MakeTab({
 
 end
 OrionLib:Init()
+
+
+Tab1:AddToggle({
+    Name = "toggle",
+    Default = true,
+    Save = true,
+    Flag = "toggle"
+})
+
+print(OrionLib.Flags["toggle"].Value)
+
+OrionLib:Destroy()
