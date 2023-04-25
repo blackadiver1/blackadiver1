@@ -1,7 +1,6 @@
-if game.PlaceId == 6299805723 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Anime Fighters | Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
+local Window = OrionLib:MakeWindow({Name = "Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
 
 
-end
+
 OrionLib:Init()
