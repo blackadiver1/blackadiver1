@@ -11,4 +11,4 @@ local Tab = Window:MakeTab({
 
 
 end
-OrionLib:init()
+OrionLib:Init()
