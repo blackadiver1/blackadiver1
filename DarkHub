@@ -1,26 +1,7 @@
+if game.PlaceId == 6299805723 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Anime Fighters | Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "Dark Hub"})
-
-local Tab = Window:MakeTab({
-	Name = "Main",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-
+local Window = OrionLib:MakeWindow({Name = "Anime Fighters | Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
 
 
 end
 OrionLib:Init()
-
-
-Tab1:AddToggle({
-    Name = "toggle",
-    Default = true,
-    Save = true,
-    Flag = "toggle"
-})
-
-print(OrionLib.Flags["toggle"].Value)
-
-OrionLib:Destroy()
