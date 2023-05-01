@@ -10,5 +10,9 @@ local Tab = Window:MakeTab({
 })
 
 
+local Section = Tab:AddSection({
+	Name = "Moviment"
+})
+
 end
 OrionLib:Init()
