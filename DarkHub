@@ -2,5 +2,12 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
 
 
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
 
 OrionLib:Init()
