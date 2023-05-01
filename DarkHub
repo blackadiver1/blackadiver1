@@ -4,14 +4,14 @@ local Window = OrionLib:MakeWindow({Name = "Dark Hub", HidePremium = false, Intr
 
 
 local Tab = Window:MakeTab({
-	Name = "Main",
+	Name = "AutoFarm",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 
 local Section = Tab:AddSection({
-	Name = "Moviment"
+	Name = "AutoClicker"
 })
 
 end
