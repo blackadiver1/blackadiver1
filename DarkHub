@@ -1,18 +1,27 @@
-if game.PlaceId == 8762556732 then
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "Dark Hub", HidePremium = false, IntroText = 'Dark Hub', SaveConfig = true, ConfigFolder = "DarkConfig"})
+    
+    --AutoFarm
+    local Tab = Window:MakeTab({
+        Name = "AutoFarm",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    --AutoClicker
+    local Section = Tab:AddSection({
+        Name = "AutoClicker"
+    })
+    
+    --Botão
 
-
-local Tab = Window:MakeTab({
-	Name = "AutoFarm",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
+Tab:AddButton({
+	Name = "Auto Clicker",
+	Callback = function()
+      		print("Botão pressionado")
+  	end    
 })
-
-
-local Section = Tab:AddSection({
-	Name = "AutoClicker"
-})
-
-end
-OrionLib:Init()
+    
+    
+    OrionLib:Init()
+    
