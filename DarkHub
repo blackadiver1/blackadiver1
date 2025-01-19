@@ -1528,7 +1528,7 @@ $endtry
 $async[bl]
 $useChannel[$channelID]
 $var[saved_id;$sendEmbedMessage[$channelID;;Closed & Saved;;This Ticket has been Closed & Saved by **$username[$authorID]#$discriminator[$authorID]**!
-```This Ticket won't be seen by the person that opened it anymore, only staffs, if you wish to open this ticket back just use the panel!```;$var[main_color];$serverName[$guildID];$serverIcon[$guildID];;;;;;yes]]
+```Este ticket não será mais visível para a pessoa que o abriu, apenas para a equipe de suporte. Se desejar reabrir este ticket, basta usar o painel!```;$var[main_color];$serverName[$guildID];$serverIcon[$guildID];;;;;;yes]]
 
 $addButton[no;tkt_close;Close Ticket;danger;no;$var[close_emoji];$var[saved_id]]
 $addButton[no;tkt_pnel;Staff Panel;primary;no;$var[panel_emoji];$var[saved_id]]
@@ -1537,7 +1537,7 @@ $optOff[$modifyChannel[$channelID;solved-$channelName[$channelID]]]
 $editChannelPerms[$channelID;$var[u];-sendmessages;-readmessages]
 $removeButtons
 $title[Closed & Saved]
-$description[> ☑️ Successfully **Closed & Saved** this ticket! You still can use the panel to perform other actions such as actually closing this ticket. ]
+$description[> ☑️ Ticket **fechado e salvo** com sucesso! Você ainda pode usar o painel para realizar outras ações, como realmente fechar este ticket. ]
 $color[$var[success_color]]
 $ephemeral
 $stop $c[s]
