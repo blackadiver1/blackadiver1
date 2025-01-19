@@ -1100,7 +1100,7 @@ $if[$var[claimed_by]==]
 $addButton[no;tkt_claim;Assumir Ticket;secondary;no;$var[claim_emoji]]
 $else
 $if[$or[$var[claimed_by]==$authorID;$isAdmin[$authorID]==true]==true]
-$addButton[no;tkt_claim;Desassumir ticket.;secondary;no;$var[claim_emoji]]
+$addButton[no;tkt_claim;Desassumir ticket;secondary;no;$var[claim_emoji]]
 $else
 $addButton[no;tkt_claim;Assumido por $cropText[$username[$authorID];6;~];secondary;yes;$var[claim_emoji]]
 $endif
