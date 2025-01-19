@@ -237,7 +237,7 @@ $var[res_id;$sendEmbedMessage[$var[new_ticket];
 ;$var[ticket_title]
 ;$getBotInvite
 ;$var[ticket_message]$var[topic_msg]
-**Ticket Subject**
+**Motivo do ticket**
 ```$var[subject]```
 ;$var[color]
 ;$username[$authorID]#$discriminator[$authorID]
@@ -317,7 +317,7 @@ $else
 $description[$replaceText[$var[ticket_message_default];{username};$username[$authorID];-1];$var[ind]]
 $endif
 $addField[Ticket Panel;```Panel Name would go here.```;no;$var[ind]]
-$addField[Ticket Subject;```Ticket Subject would go here.```;no;$var[ind]]
+$addField[Motivo do ticket;```Ticket Subject would go here.```;no;$var[ind]]
 $try $thumbnail[$var[s_thumbnail];$var[ind]] $endtry
 $if[$input[embed_image]!=]
 $try $image[$input[embed_image];$var[ind]] $catch $try $image[$var[s_image];$var[ind]] $endtry $endtry
