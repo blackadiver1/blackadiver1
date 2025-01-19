@@ -40,8 +40,8 @@ $var[error_color;#ea003a]
 
 $var[rt_msg;Para ajudar o {server} a melhorar a experiência com os tickets de suporte, gostaríamos de receber seu feedback anônimo.]
 $var[rt_footer;How would you rate the support received?] 
-$var[negative_rate;Sorry to hear that! Thank you for **rating** this server's ticket support experience, your feedback **helps** ``{server}`` **improve** your support experience, we truly **appreciate** your honesty.]
-$var[positive_rate;Glad to hear that! Thank you for **rating** this server's ticket support experience, your feedback **helps** ``{server}`` **improve** your support experience, we truly **appreciate** your feedback.]
+$var[negative_rate;Lamentamos saber disso! Agradecemos por **avaliar** a experiência de suporte a tickets deste servidor. Seu feedback **ajuda** o `{server}` a melhorar o **atendimento**. **Valorizamos** muito a sua honestidade.]
+$var[positive_rate;Que bom saber disso! Agradecemos por avaliar a experiência de suporte a tickets deste servidor. Seu feedback **ajuda** o `{server}` a **melhorar** o atendimento. Agradecemos muito a sua **contribuição**.]
 
 $c[ ... Error message that appears when a user don't have enough permissions to use a button. ]
 $var[sf_title;Staff only!]
