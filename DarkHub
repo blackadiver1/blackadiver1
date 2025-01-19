@@ -1235,8 +1235,8 @@ $endif
 $endasync
 $else
 $setChannelVar[tickets2;$getChannelVar[tickets2] %sticky%]
-$title[Successfully Marked]
-$description[Ticket successfully **marked** as sticky! Ticket's author and Staff is not able to close this ticket anymore till it gets unmarked as sticky.]
+$title[Fixado com sucesso]
+$description[Ticket **fixado** com sucesso! O autor do ticket e a equipe de suporte não poderão fechar este ticket até que ele seja desfixado.]
 $color[$var[success_color]]
 $async[logs_block]
 $if[$serverChannelExists[$var[logs]]]
