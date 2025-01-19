@@ -1348,7 +1348,7 @@ $endif
 $var[u;$getChannelVar[tickets;$channelID]]
 $var[user;$var[u]]
 $title[Closing Ticket!]
-$description[Hey <@$authorID>, this ticket is closing <t:$sum[$getTimestamp;$var[close_in]]:R>!]
+$description[Olá, <@$authorID>, este ticket será fechado em <t:$sum[$getTimestamp;$var[close_in]]:R>!]
 $color[$var[error_color]]
 $addButton[no;tkt_closenow;Close Now;danger;no;$var[close_emoji]]
 $addButton[no;tkt_closecancel;Cancel;primary;no;]
