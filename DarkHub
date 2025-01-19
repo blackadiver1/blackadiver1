@@ -1368,7 +1368,7 @@ $if[$checkContains[$getUserVar[tickets;$authorID];$var[ch]Close]==true]
 $try
 $if[$checkContains[$channelName[$channelID];solved-]==false]
 $try
-$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Hey **$username[$var[u]]**, your ticket ``#$channelName[$channelID]`` has been closed by <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Olá **$username[$var[u]]**, o seu ticket `#$channelName[$channelID]` foi fechado por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 
 $replaceText[$var[rt_msg];{server};$serverName[$guildID];-1];$var[main_color];$serverName[$guildID];$serverIcon[$guildID];$var[rt_footer];;;;;yes]]
 $useChannel[$dmChannelID[$var[u]]]
@@ -1432,7 +1432,7 @@ $stop
 $endif
 $if[$checkContains[$channelName[$channelID];solved-]==false]
 $try
-$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Hey **$username[$var[u]]**, your ticket ``#$channelName[$channelID]`` has been closed by <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Olá **$username[$var[u]]**, o seu ticket `#$channelName[$channelID]` foi fechado por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 
 $replaceText[$var[rt_msg];{server};$serverName[$guildID];-1];$var[main_color];$serverName[$guildID];$serverIcon[$guildID];$var[rt_footer];;;;;yes]]
 $useChannel[$dmChannelID[$var[u]]]
@@ -1507,7 +1507,7 @@ $ephemeral
 $stop
 $endif
 $try
-$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Hey **$username[$var[u]]**, your ticket ``#$channelName[$channelID]`` has been closed by <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$var[dm_id;$sendEmbedMessage[$dmChannelID[$var[u]];;Ticket Closed;$getBotInvite;Olá **$username[$var[u]]**, o seu ticket `#$channelName[$channelID]` foi fechado por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 
 $replaceText[$var[rt_msg];{server};$serverName[$guildID];-1];$var[main_color];$serverName[$guildID];$serverIcon[$guildID];$var[rt_footer];;;;;yes]]
 $useChannel[$dmChannelID[$var[u]]]
