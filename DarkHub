@@ -1154,7 +1154,7 @@ $endasync
 $sendEmbedMessage[$channelID;;Ticked Claimed;;Olá **$username[$var[u]]**, este ticket foi assumido por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**).
 ;$var[main_color];;;;;;;;no]
 $setChannelVar[tickets3;$authorID]
-$title[Successfully claimed!]
+$title[Assumido com sucesso!]
 $description[> ☑️ **$username[$authorID]** Você assumiu este ticket com sucesso.]
 $color[$var[success_color]]
 $textSplit[$getServerVar[tickets3];-]
@@ -1188,7 +1188,7 @@ $endasync
 $sendEmbedMessage[$channelID;;Ticked Desassumido;;Olá **$username[$var[u]]**, este ticket foi desassumido por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 ;$var[main_color];;;;;;;;no]
 $setChannelVar[tickets3;]
-$title[Successfully unclaimed!]
+$title[Desassumido com sucesso!]
 $description[> ☑️ **$username[$authorID]** You successfully marked this ticket as **unclaimed**!]
 $color[$var[success_color]]
 $textSplit[$getServerVar[tickets3];-]
