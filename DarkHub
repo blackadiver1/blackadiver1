@@ -1533,7 +1533,7 @@ $var[saved_id;$sendEmbedMessage[$channelID;;Closed & Saved;;Este ticket foi fech
 $addButton[no;tkt_close;Close Ticket;danger;no;$var[close_emoji];$var[saved_id]]
 $addButton[no;tkt_pnel;Staff Panel;primary;no;$var[panel_emoji];$var[saved_id]]
 $endasync
-$optOff[$modifyChannel[$channelID;solved-$channelName[$channelID]]]
+$optOff[$modifyChannel[$channelID;salvo-$channelName[$channelID]]]
 $editChannelPerms[$channelID;$var[u];-sendmessages;-readmessages]
 $removeButtons
 $title[Fechado e salvo]
