@@ -688,7 +688,7 @@ $try
 $title[$var[t_title]]
 $var[embed_data;$var[embed_data]≈$var[t_title]]
 $catch
-$title[Ticket Menu]
+$title[Suporte e Gestão]
 $var[embed_data;$var[embed_data]≈]
 $endtry
 $try
@@ -1024,7 +1024,7 @@ $endif
 $if[$var[t_title]!=]
 $title[$var[t_title]]
 $else
-$title[Ticket Menu]
+$title[Suporte e Gestão]
 $endif
 $if[$var[t_desc]!=]
 $description[$var[t_desc]]
