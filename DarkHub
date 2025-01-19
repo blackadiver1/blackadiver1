@@ -38,7 +38,7 @@ $var[neutral_color;#faa81a]
 $var[success_color;#08b278]
 $var[error_color;#ea003a]
 
-$var[rt_msg;To help **{server}** improve their support ticket experience we would like to receive your anonymous feedback.]
+$var[rt_msg;Para ajudar o {server} a melhorar a experiência com os tickets de suporte, gostaríamos de receber seu feedback anônimo.]
 $var[rt_footer;How would you rate the support received?] 
 $var[negative_rate;Sorry to hear that! Thank you for **rating** this server's ticket support experience, your feedback **helps** ``{server}`` **improve** your support experience, we truly **appreciate** your honesty.]
 $var[positive_rate;Glad to hear that! Thank you for **rating** this server's ticket support experience, your feedback **helps** ``{server}`` **improve** your support experience, we truly **appreciate** your feedback.]
