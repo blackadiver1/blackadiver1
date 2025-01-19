@@ -1019,7 +1019,7 @@ $eval[$repeatMessage[2;$repeatMessage[5;%{DOL}%optOff[
 \]]]]
 $else
 $var[type;button]
-$addButton[no;tkt_mdl_op-0;Open a Ticket;primary;no;$var[openticket_emoji]]
+$addButton[no;tkt_mdl_op-0;Abra um ticket;primary;no;$var[openticket_emoji]]
 $endif
 $if[$var[t_title]!=]
 $title[$var[t_title]]
@@ -1029,7 +1029,7 @@ $endif
 $if[$var[t_desc]!=]
 $description[$var[t_desc]]
 $else
-$description[Open a new Ticket using the $var[type] below this message!]
+$description[Atendimento]
 $endif
 $if[$isValidHex[$var[t_color]]==true]
 $color[$var[t_color]]
