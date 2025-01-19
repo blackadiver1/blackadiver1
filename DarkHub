@@ -1100,9 +1100,9 @@ $if[$var[claimed_by]==]
 $addButton[no;tkt_claim;Assumir Ticket;secondary;no;$var[claim_emoji]]
 $else
 $if[$or[$var[claimed_by]==$authorID;$isAdmin[$authorID]==true]==true]
-$addButton[no;tkt_claim;Unclaim Ticket;secondary;no;$var[claim_emoji]]
+$addButton[no;tkt_claim;Desassumir ticket.;secondary;no;$var[claim_emoji]]
 $else
-$addButton[no;tkt_claim;Claimed by $cropText[$username[$authorID];6;~];secondary;yes;$var[claim_emoji]]
+$addButton[no;tkt_claim;Assumido por $cropText[$username[$authorID];6;~];secondary;yes;$var[claim_emoji]]
 $endif
 $endif
 $if[$checkContains[$getChannelVar[tickets2];%sticky%]==false]
@@ -1180,12 +1180,12 @@ $endif
 $async[logs_block]
 $if[$serverChannelExists[$var[logs]]]
 $try
-$sendEmbedMessage[$var[logs];;Ticked Unclaimed;;Ticket ``#$channelName[$channelID]`` (<#$channelID>) by <@$var[u]> (**$username[$var[u]]#$discriminator[$var[u]]**) has been __unclaimed__ by the staff member <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$sendEmbedMessage[$var[logs];;Ticked Desassumido;;Ticket ``#$channelName[$channelID]`` (<#$channelID>) by <@$var[u]> (**$username[$var[u]]#$discriminator[$var[u]]**) has been __unclaimed__ by the staff member <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 ;$var[neutral_color];;;;;;;;no]
 $endtry
 $endif
 $endasync
-$sendEmbedMessage[$channelID;;Ticked Unclaimed;;Hey **$username[$var[u]]**, this ticket has been __unclaimed__ by <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$sendEmbedMessage[$channelID;;Ticked Desassumido;;Olá **$username[$var[u]]**, este ticket foi desassumido por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
 ;$var[main_color];;;;;;;;no]
 $setChannelVar[tickets3;]
 $title[Successfully unclaimed!]
