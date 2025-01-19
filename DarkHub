@@ -1151,7 +1151,7 @@ $sendEmbedMessage[$var[logs];;Ticked Claimed;;Ticket ``#$channelName[$channelID]
 $endtry
 $endif
 $endasync
-$sendEmbedMessage[$channelID;;Ticked Claimed;;Hey **$username[$var[u]]**, this ticket has been claimed by <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**)!
+$sendEmbedMessage[$channelID;;Ticked Claimed;;Olá **$username[$var[u]]**, este ticket foi assumido por <@$authorID> (**$username[$authorID]#$discriminator[$authorID]**).
 ;$var[main_color];;;;;;;;no]
 $setChannelVar[tickets3;$authorID]
 $title[Successfully claimed!]
